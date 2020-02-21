@@ -1,1 +1,144 @@
-style.css
+/* basic css start */
+body{  
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+section{
+    height: 300px;
+    padding-bottom: 100px;
+}
+/* basic css end */
+
+/* top section start */
+
+.half-width h1{
+    font-size: 50px;
+}
+.name-hightlight{
+    color:red;
+}
+.half-width{   
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width h2{
+    margin-top: 197px;
+}
+p{
+    color:dimgray;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(255, 0, 157),tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700px;
+    margin-top: 10px;    
+    line-height: 53px;
+}
+
+
+
+
+
+.half-width img{
+    width: 100%;
+}
+
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+
+
+.Biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    padding-bottom: 230px;
+}
+/* top section end */
+
+ /* latest work css start  */
+ .latest-work{
+ background-image: url("images/latest-bg.png");
+ background-repeat: no-repeat;
+ padding-top: 219px;
+ }
+ .work-heading{
+     padding-top: 14px;
+     text-align: center;
+ }
+.work-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 27px;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 23%;
+}
+
+.work-images img{
+    width: 100%;
+}
+/* latest work css end */
+
+/* client section css start */
+.client-area{
+  
+}
+.client{
+    text-align: center;
+}
+.client h1{
+    font-size: 25px;
+}
+.client h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+.client p{
+    text-align: justify;
+    padding: 0px 30%;
+}
+/* client section css end */
+/* message section start */
+.message-area{
+   
+}
+.message{
+    display: inline-block;
+    background-image:linear-gradient(rgb(255, 0, 157),tomato);
+    color: white;
+    padding: 20px 80px;
+    margin-left:32%;
+}
+.message h4{
+    text-align: center;
+    font-size: 12px;
+}
+.message a{
+    color: white;
+    font-size: 20px;
+
+}
+/* message section end  */
+/* footer section css start */
+
+footer p{
+    text-align: center;
+}
+footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: none;
+}
+
+/* footer section css end */
